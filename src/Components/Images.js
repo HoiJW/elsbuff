@@ -6,6 +6,10 @@ import aes from '../partials/asset/Aes.png';
 import oz from '../partials/asset/Oz.png';
 import mtm from '../partials/asset/Mtm.png';
 import la from '../partials/asset/LA.png';
+import an from '../partials/asset/an.png';
+import pr from '../partials/asset/pr.png';
+import dab from '../partials/asset/dab.png';
+import tw from '../partials/asset/tw.png';
 
 const images = [
   {
@@ -48,7 +52,27 @@ const images = [
     src: la,
     alt: 'la'
   },
-
+  {
+    id: 9,
+    src: an,
+    alt: 'an'
+  },
+  {
+    id: 10,
+    src: dab,
+    alt: 'dab'
+  },
+  {
+    id: 11,
+    src: tw,
+    alt: 'tw'
+  },
+  {
+    id: 12,
+    src: pr,
+    alt: 'pr'
+  },
+  
 ];
 
 export default images;

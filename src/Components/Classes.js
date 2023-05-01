@@ -120,6 +120,63 @@ const Classes = () =>{
                         </div>
                     </div>
                     </div>
+                      {/* rena */}
+                    <div class="class-container rena">
+                    <div class="long-rectangle">
+                        <h2>Rena</h2>
+                    </div>
+                    <div class="square">
+                        <p>An</p>
+                        <div className="class-pics">
+                            {Images.map(image => {
+                                if (image.alt === "an") {
+                                return <img key={image.id} src={image.src} alt={image.alt} />;
+                                } else {
+                                return null;
+                                }
+                            })}
+                        </div>
+                    </div>
+                    <div class="square">
+                        <p>dab</p>
+                        <div className="class-pics">
+                            {Images.map(image => {
+                                if (image.alt === "dab") {
+                                return <img key={image.id} src={image.src} alt={image.alt} />;
+                                } else {
+                                return null;
+                                }
+                            })}
+                        </div>
+                        
+                    </div>
+                    <div class="square">
+                        <p>TW</p>
+                        <div className="class-pics">
+                            {Images.map(image => {
+                                if (image.alt === "tw") {
+                                return <img key={image.id} src={image.src} alt={image.alt} />;
+                                } else {
+                                return null;
+                                }
+                            })}
+                        </div>
+                    </div>
+                    <div class="square">
+                        <p>PR</p>
+                        <div className="class-pics">
+                            {Images.map(image => {
+                                if (image.alt === "pr") {
+                                return <img key={image.id} src={image.src} alt={image.alt} />;
+                                } else {
+                                return null;
+                                }
+                            })}
+                        </div>
+
+                        
+                    </div>
+                    </div>
                 </div>
             </div>    
         </body>
