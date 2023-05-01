@@ -230,6 +230,12 @@ html {
   text-align: center;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 h1,
 h2,
 h3,
@@ -394,4 +400,42 @@ nav {
 
 .main {
   background-color: black;
+}
+
+.class-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 300px;
+  border: 1px solid black;
+}
+.class-container h2 {
+  text-align: center;
+}
+.class-container :hover {
+  background-color: #ffffff;
+  transition: 0.5s;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.class-pics {
+  width: 150px;
+}
+
+.class-pics.clicked {
+  transform: scale(1.1);
+}
+
+.long-rectangle {
+  grid-column: 1/span 2;
+  grid-row: 1/span 2;
+  background-color: gray;
+}
+
+.square {
+  background-color: rgba(173, 216, 230, 0.192);
+  border: 1px solid black;
 }/*# sourceMappingURL=App.css.map */
